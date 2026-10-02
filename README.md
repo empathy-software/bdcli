@@ -5,7 +5,7 @@ BDCLI
 [Base Docker](https://github.com/mikejw/base-docker) command line tool.
 
 A wrapper CLI tool around base docker commands, including base docker installation
-and initial configuration on a new machine.  (Base Docker dependencies still required - Python 3, virtualenv, Ansible, Docker.)
+and initial configuration on a new machine.  (Base Docker dependencies still required - Python 3, virtualenv, Ansible, Docker. The platform commands also require the AWS CLI.)
 
 Currently no Windows support is available.
 
@@ -71,7 +71,7 @@ Settings and deploy
 Platform
 ---
 
-`platform` manages the AWS CloudFormation substrate in Base Docker. The AWS CLI must be installed, and the profile must already exist in `~/.aws`.
+`platform` manages the AWS CloudFormation substrate in Base Docker. These commands require the AWS CLI (`aws`) to be installed on the machine. The profile must already exist in `~/.aws`.
 
 ```text
 bdcli platform --aws <up|down|status|key|update> [options]
