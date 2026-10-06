@@ -4,6 +4,10 @@
     {
       "file": "README.md",
       "title": "Readme Doc"
+    },
+    {
+      "file": "./docs/site-secrets.md",
+      "title": "Site Secrets"
     }
   ]
 }
