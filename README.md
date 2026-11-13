@@ -7,7 +7,9 @@ BDCLI
 A wrapper CLI tool around base docker commands, including base docker installation
 and initial configuration on a new machine.  (Base Docker dependencies still required - Python 3, virtualenv, Ansible, Docker. The platform commands also require the AWS CLI.)
 
-Currently no Windows support is available.
+Windows support is now available through WSL 2, Ubuntu, and Docker. Follow the
+[Windows setup guide](docs/windows.md) to install the prerequisites and the Linux
+binary of bdcli. The current version is **v1.6.0-dev (pre-release)**.
 
 Check the [releases](https://github.com/mikejw/bdcli/releases) page!
 

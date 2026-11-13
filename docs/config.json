@@ -6,6 +6,10 @@
       "title": "Readme Doc"
     },
     {
+      "file": "./docs/windows.md",
+      "title": "Windows Setup"
+    },
+    {
       "file": "./docs/site-secrets.md",
       "title": "Site Secrets"
     }
