@@ -36,14 +36,14 @@ wsl --set-version Ubuntu-24.04 2
 
 **Run all subsequent shell commands in the Ubuntu terminal**, except where
 PowerShell is explicitly named. Keep projects in the Linux filesystem, for
-example `~/projects`, for Linux permissions and filesystem performance.
+example `~/code`, for Linux permissions and filesystem performance.
 
 ## 2. Install Python, virtualenv, and Ansible
 
 ```bash
 sudo apt update
 sudo apt install -y git curl ca-certificates python3 python3-pip python3-venv virtualenv ansible
-mkdir -p ~/projects
+mkdir -p ~/code
 
 python3 --version
 virtualenv --version
